@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   // 网站标题
@@ -19,7 +19,8 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     editLink: {
-      pattern: "https://github.com/ljd1995/autumn-devops-doc/edit/main/docs/:path",
+      pattern:
+        "https://github.com/ljd1995/autumn-devops-doc/edit/main/docs/:path",
       text: "为此页提供修改建议",
     },
 
@@ -31,8 +32,11 @@ export default defineConfig({
       message: "MIT Licensed",
       copyright: "Copyright © 2022-present Jackless",
     },
-    // 启动页面丝滑滚动
-    smoothScroll: true,
+    lastUpdatedText: "最近一次更新于",
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
     // 导航栏配置
     nav: createNav(),
     sidebar: createSidebar(),
@@ -88,6 +92,7 @@ function createSidebar() {
     "/": [
       {
         text: "指南",
+        collapsible: true,
         items: [
           {
             text: "介绍",
@@ -113,6 +118,7 @@ function createSidebar() {
       },
       {
         text: "深入",
+        collapsible: true,
         items: [
           {
             text: "架构设计",
@@ -138,6 +144,7 @@ function createSidebar() {
       },
       {
         text: "其他",
+        collapsible: true,
         items: [
           {
             text: "常见问题",
