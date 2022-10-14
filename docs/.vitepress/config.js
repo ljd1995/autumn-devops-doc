@@ -47,7 +47,7 @@ function createNav() {
   return [
     {
       text: "指南",
-      link: "/guide/",
+      link: "/guide/introduction",
       items: [
         {
           text: "指南",
