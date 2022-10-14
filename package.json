@@ -1,0 +1,17 @@
+{
+  "name": "autumn-devops",
+  "version": "1.0.0",
+  "description": "Autumn DevOps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "jackless",
+  "license": "MIT",
+  "dependencies": {
+    "@algolia/client-search": "^4.9.1",
+    "vitepress": "1.0.0-alpha.20"
+  }
+}
