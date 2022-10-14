@@ -19,7 +19,7 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     editLink: {
-      pattern: "https://github.com/ljd1995/autumn-devops-doc",
+      pattern: "https://github.com/ljd1995/autumn-devops-doc/edit/main/docs/:path",
       text: "为此页提供修改建议",
     },
 
