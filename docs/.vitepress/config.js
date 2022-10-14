@@ -55,7 +55,7 @@ function createNav() {
         },
         {
           text: "深入",
-          link: "/dep/icon",
+          link: "/dep/design",
         },
         {
           text: "其他",
